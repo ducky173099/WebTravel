@@ -4,242 +4,164 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
-	<script type="text/javascript" src="scripts/1.js"></script>
-	<script type="text/javascript" src="scripts/activeColorMenuBar.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
+
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link
-		href="https://fonts.googleapis.com/css?family=Oswald:400,700|Poppins"
-		rel="stylesheet"
-	/>
+	<link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Poppins" rel="stylesheet"/>
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
-	<!-- ----- javascript ---------- -->
-	<script src="./js/slide.js"></script>
-	<script src="./js/hover.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
-	<script src="./js/glide.min.js"></script>
 
 	<!-- --------- CSS -------- -->
-	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="./css/glide.core.min.css">
 	<link rel="stylesheet" href="./css/slide.css">
 </head>
 <body class="body">
-	<?php 
-		//include'header.php';
-	 ?>
-	<!-- <div class="khoimainbig">
-		<div class="slidewrapper">
+	<?php include'header.php';?>
 
-			<div class="cacslide">
-				<ul>
-					<li class="active">
-						<div class="motslide">
-							<div class="anh" style="background-image: url(images/ht9.jpeg);"></div>
-							<div class="textnd">
-								<h2>Huế</h2>
-								<small>Thành phố Festival du lịch</small>
-								<div class="ke"></div>
-								<p>Từng là Kinh đô của triều đại nhà Nguyễn, chính vì thế mà Huế được xem là một trong những thành phố có bề dày lịch sử, văn hóa lâu đời nhất ở nước ta...</p>
-								<a href="chitiettour.php" class="nut">Xem Thêm</a>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="motslide">
-							<div class="anh" style="background-image: url(images/ht_gt1.jpg);"></div>
-							<div class="textnd">
-								<h2>Nha Trang</h2>
-								<small>Biển xanh dài bất tận</small>
-								<div class="ke"></div>
-								<p>Thành phố biển Nha Trang là thủ phủ của tỉnh Khánh Hòa, thuộc miền duyên hải Nam Trung bộ Việt Nam. Vịnh biển Nha Trang là một trong những vịnh biển đẹp nhất thế giới...</p>
-								<a href="chitiettour.php" class="nut">Xem Thêm</a>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="motslide">
-							<div class="anh" style="background-image: url(images/ht7.jpeg);"></div>
-							<div class="textnd">
-								<h2>Hội An</h2>
-								<small>Nét đẹp văn hóa truyền thống</small>
-								<div class="ke"></div>
-								<p>Phố cổ Hội An là một thành phố nổi tiếng của tỉnh Quảng Nam, một phố cổ giữ được gần như nguyên vẹn với hơn 1000 di tích kiến trúc từ phố xá, nhà cửa, hội quán, đình...</p>
-								<a href="chitiettour.php" class="nut">Xem Thêm</a>
-							</div>
-						</div>
-					</li>
 
-				</ul>
-
-			</div>
-
-			<div class="chuyenslide">
-				<ul>
-					<li class="kichhoat">1</li>
-					<li>2</li>
-					<li>3</li>
-				</ul>
-			</div>
-		</div>
-	</div> -->
-
+	
 	<section class="divSection">
-		<nav>
-		  <h5>Logo.</h5>
-		  <ul>
-			<li>Home</li>
-			<li>Collections</li>
-			<li>Blog</li>
-			<li>Contact</li>
-		  </ul>
-		  <div class="search">
-			<i class="fa fa-search"></i>
-		  </div>
-		</nav>
 		<div class="side-indicator">
-		  <div class="line"></div>
-		  <div class="index one">
-			<p>1</p>
-		  </div>
-		  <div class="index two">
-			<p>2</p>
-		  </div>
-		  <div class="index three">
-			<p>3</p>
-		  </div>
-		  <div class="index four">
-			<p>4</p>
-		  </div>
+			<div class="line"></div>
+			<div class="index one">
+				<p>1</p>
+			</div>
+			<div class="index two">
+				<p>2</p>
+			</div>
+			<div class="index three">
+				<p>3</p>
+			</div>
+			<div class="index four">
+				<p>4</p>
+			</div>
 		</div>
 		<div class="content">
-		  <div class="text-wrapper">
-			<div class="text">
-			  <div id="title">
-				<h4>INDONESIA</h4>
-				<h4>KERALA</h4>
-				<h4>BALI</h4>
-				<h4>THAILAND</h4>
-			  </div>
-			  <div id="description">
-				<p>
-				  As the larget archipelagic country in the world, Indonesia is
-				  blessed with so many different people, cultures, customs,
-				  traditions, artworks, food, animals, plants, landscapes, and
-				  everything that made it almost like 100 (or even 200} countries
-				  melted beautifully into one.
-				</p>
-				<p>
-				  Kerala, a state on India's tropical Malabar Coast, has nearly
-				  600km of Arabian Sea shoreline. It's known for its palm-lined
-				  beaches and backwaters, a network of canals. Inland are the
-				  Western Ghats, mountains whose slopes support tea, coffee and
-				  spice plantations as well as wildlife.
-				</p>
-				<p>
-				  Bali is an Indonesian island known for its forested volcanic
-				  mountains, iconic rice paddies, beaches and coral reefs. The
-				  island is home to religious sites such as cliffside Uluwatu
-				  Temple. To the south, the beachside city of Kuta has lively
-				  bars, while Seminyak, Sanur and Nusa Dua are popular resort
-				  towns.
-				</p>
-				<p>
-				  Thailand is a Southeast Asian country. It's known for tropical
-				  beaches, opulent royal palaces, ancient ruins and ornate temples
-				  displaying figures of Buddha. In Bangkok, the capital, an
-				  ultramodern cityscape rises next to quiet canalside communities
-				  and the iconic temples of Wat Arun, Wat Pho and the Emerald
-				  Buddha Temple (Wat Phra Kaew).
-				</p>
-			  </div>
-			  <div class="btn">
-				<p>Explore</p>
-				<i class="fa fa-arrow-right"></i>
-			  </div>
+			<div class="text-wrapper">
+				<div class="text">
+				<div id="title">
+					<h4>INDONESIA</h4>
+					<h4>KERALA</h4>
+					<h4>BALI</h4>
+					<h4>THAILAND</h4>
+				</div>
+				<div id="description">
+					<p>
+					As the larget archipelagic country in the world, Indonesia is
+					blessed with so many different people, cultures, customs,
+					traditions, artworks, food, animals, plants, landscapes, and
+					everything that made it almost like 100 (or even 200} countries
+					melted beautifully into one.
+					</p>
+					<p>
+					Kerala, a state on India's tropical Malabar Coast, has nearly
+					600km of Arabian Sea shoreline. It's known for its palm-lined
+					beaches and backwaters, a network of canals. Inland are the
+					Western Ghats, mountains whose slopes support tea, coffee and
+					spice plantations as well as wildlife.
+					</p>
+					<p>
+					Bali is an Indonesian island known for its forested volcanic
+					mountains, iconic rice paddies, beaches and coral reefs. The
+					island is home to religious sites such as cliffside Uluwatu
+					Temple. To the south, the beachside city of Kuta has lively
+					bars, while Seminyak, Sanur and Nusa Dua are popular resort
+					towns.
+					</p>
+					<p>
+					Thailand is a Southeast Asian country. It's known for tropical
+					beaches, opulent royal palaces, ancient ruins and ornate temples
+					displaying figures of Buddha. In Bangkok, the capital, an
+					ultramodern cityscape rises next to quiet canalside communities
+					and the iconic temples of Wat Arun, Wat Pho and the Emerald
+					Buddha Temple (Wat Phra Kaew).
+					</p>
+				</div>
+				<div class="btn">
+					<p>Explore</p>
+					<i class="fa fa-arrow-right"></i>
+				</div>
+				</div>
 			</div>
-		  </div>
-		  <div class="glide">
-			<div class="glide_cover"></div>
-			<div class="glide__track" data-glide-el="track">
-			  <ul class="glide__slides">
-				<li class="glide__slide">
-				  <div class="slide one">
-					<p>Borobudur Temple, Indonesia</p>
-					<div class="rating">
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle"></div>
+			<div class="glide">
+				<div class="glide_cover"></div>
+				<div class="glide__track" data-glide-el="track">
+				<ul class="glide__slides">
+					<li class="glide__slide">
+					<div class="slide one">
+						<p>Borobudur Temple, Indonesia</p>
+						<div class="rating">
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle"></div>
+						</div>
+						<div class="slider-image">
+						<img src="img/slide5.jpg" />
+						<div class="bookmark">
+							<i class="fa fa-bookmark"></i>
+						</div>
+						</div>
 					</div>
-					<div class="slider-image">
-					  <img src="img/slide5.jpg" />
-					  <div class="bookmark">
-						<i class="fa fa-bookmark"></i>
-					  </div>
+					</li>
+					<li class="glide__slide">
+					<div class="slide two">
+						<p>Kerala</p>
+						<div class="rating">
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle"></div>
+						</div>
+						<div class="slider-image">
+						<img src="img/slide6.jpg" />
+						<div class="bookmark">
+							<i class="fa fa-bookmark"></i>
+						</div>
+						</div>
 					</div>
-				  </div>
-				</li>
-				<li class="glide__slide">
-				  <div class="slide two">
-					<p>Kerala</p>
-					<div class="rating">
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle"></div>
+					</li>
+					<li class="glide__slide">
+					<div class="slide three">
+						<p>Balinese Temple, Bali</p>
+						<div class="rating">
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle"></div>
+						</div>
+						<div class="slider-image">
+						<img src="img/slide7.jpg" />
+						<div class="bookmark">
+							<i class="fa fa-bookmark"></i>
+						</div>
+						</div>
 					</div>
-					<div class="slider-image">
-					  <img src="img/slide6.jpg" />
-					  <div class="bookmark">
-						<i class="fa fa-bookmark"></i>
-					  </div>
+					</li>
+					<li class="glide__slide">
+					<div class="slide four">
+						<p>Buddha Temple, Thailand</p>
+						<div class="rating">
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle active"></div>
+						<div class="circle"></div>
+						</div>
+						<div class="slider-image">
+						<img src="img/slide8.jpg" />
+						<div class="bookmark">
+							<i class="fa fa-bookmark"></i>
+						</div>
+						</div>
 					</div>
-				  </div>
-				</li>
-				<li class="glide__slide">
-				  <div class="slide three">
-					<p>Balinese Temple, Bali</p>
-					<div class="rating">
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle"></div>
-					</div>
-					<div class="slider-image">
-					  <img src="img/slide7.jpg" />
-					  <div class="bookmark">
-						<i class="fa fa-bookmark"></i>
-					  </div>
-					</div>
-				  </div>
-				</li>
-				<li class="glide__slide">
-				  <div class="slide four">
-					<p>Buddha Temple, Thailand</p>
-					<div class="rating">
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle active"></div>
-					  <div class="circle"></div>
-					</div>
-					<div class="slider-image">
-					  <img src="img/slide8.jpg" />
-					  <div class="bookmark">
-						<i class="fa fa-bookmark"></i>
-					  </div>
-					</div>
-				  </div>
-				</li>
-			  </ul>
+					</li>
+				</ul>
 			</div>
 			<div data-glide-el="controls" class="controls">
 				<div data-glide-dir="<" id="prev" class="removeAuto">
@@ -260,8 +182,7 @@
 	</section>
 
 	<div class="bigMain">
-
-		<div class="khoimainbook">
+		<!-- <div class="khoimainbook">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
@@ -299,7 +220,7 @@
 					</div>
 				</div>
 			</div>
-		</div> 
+		</div>  -->
 
 		<div class="khoi4">
 			<div class="container banner4">
@@ -1000,55 +921,33 @@
 				</div>
 			</div>
 			<div class="pos_ft ">
-				<p class="text-center">Bản quyền của 502-Travel ® 2019. Bảo lưu mọi quyền. <br>Ghi rõ nguồn "www.502-Travel.com.vn" ® khi sử dụng lại thông tin từ website này. <br>Số giấy phép kinh doanh lữ hành Quốc tế: 10-234/2019/TCDL-GP LHQT</p>
+				<p class="text-center">Bản quyền của 502-Travel ® 2020. Bảo lưu mọi quyền. <br>Ghi rõ nguồn "www.502-Travel.com.vn" ® khi sử dụng lại thông tin từ website này. <br>Số giấy phép kinh doanh lữ hành Quốc tế: 10-234/2019/TCDL-GP LHQT</p>
 			</div>
 		</div>
 
-		<div class="navbar-fixed-bottom fixxbot">
-			<a href="" class="btn btn-primary nutlen float-xs-right">
-				<i class="fa fa-chevron-up "></i>
-			</a>
-		</div>
+	
 	</div>
+	
+	<!-- <div class="navbar-fixed-bottom fixxbot">
+		<a href="" class="btn btn-primary nutlen float-xs-right">
+			<i class="fa fa-chevron-up "></i>
+		</a>
+	</div> -->
 
-	<script type="text/javascript">
-		$(function(){
-			$('.body').scroll(function(event) {
-				if($('.body').scrollTop() > 350){
-					$('.nutlen').addClass('hienthi');
-				} else if($('.body').scrollTop() <= 190){
-					$('.nutlen').removeClass('hienthi');
-				}
 
-			})
-
-			$('.nutlen').click(function(event) {
-				$('.body').animate({'scrollTop':0})
-				return false;
-			});
-		})  
-	</script>
 </body>
+
+	<!-- ----- javascript ---------- -->
+	
+	<!-- <script type="text/javascript" src="scripts/1.js"></script> -->
+	<script type="text/javascript" src="scripts/activeColorMenuBar.js"></script>
+
+	<script src="./js/slide.js"></script>
+	<script src="./js/hover.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+	<script src="./js/glide.min.js"></script>
 </html>
 
-
-<script type="text/javascript">
-	// $(document).on('click', '.dsheaderduoi li a', function(){
-	// 	var tab = $(this).data('tab');
-	// 	$('.dsheaderduoi li').removeClass('active');
-	// 	$(this).closest('li').addClass('active');
-
-	// });
-	// $(document).ready(function(){
-	// 	$('.dsheaderduoi li.active a').trigger('click');
-	// });
-
-	// var nut = document.getElementsByClassName('ndheaderduoi');
-	// for(var i = 0; i < nut.length; i++){
-	// 	nut[i].onclick = function(){
-	// 		console.log(i);
-	// 	}
-	// };
-</script>
 
 

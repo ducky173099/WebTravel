@@ -11,6 +11,18 @@
 	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+	<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+	<!-- <script>
+		$(function() {
+			$("#datepicker-1").datepicker();
+		});
+	</script> -->
+
 </head>
 <body class="body">
 	<?php include'header.php'; ?>
@@ -38,7 +50,6 @@
 				</div>
 			</div>
 		</div> <!-- hết breadcrumb -->
-
 		<div class="main_chitiettour">
 			<div class="container n3-tour-detail">
 				<div class="row">
@@ -164,10 +175,11 @@
 							<div class="txtCallNow">Đặt ngay, chỉ 2 phút. Hoặc gọi <a class="txtCallNow" href="tel:0989000410">(028) 3933 8002</a></div>
 							<div class="flex_item col-xs-12 no-padding v-margin-bottom-15">
 								<label for="DateCheckinField" class="control-label no-padding">Chọn ngày khởi hành:</label>
-								<div class="col-xs-4 no-padding calenderr">
+								<div class="col-xs-5 no-padding calenderr">
 									<div class="date-input-group">
-										<label readonly="" type="text" class="form-control date-input dates-date btn-general DateCheckinField" value="11-11-2017"><span class="DateCheckinText">28-08-2020</span></label>
-										<input type="hidden" class="get_date" value="2020-08-28">
+										<!-- <label readonly="" type="text" class="form-control date-input dates-date btn-general DateCheckinField" value="11-11-2017"><span class="DateCheckinText">28-08-2020</span></label> -->
+										<!-- <input type="hidden" class="get_date" value="2020-08-28"> -->
+										<input type="date" name="ngay_di" class="form-text get_date">
 									</div>
 								</div>
 							</div>
@@ -201,10 +213,10 @@
 									</button>
 								</div>
 							</div>
-							<div class="col-xs-12 flex_item no-padding v-margin-bottom-15 priceDiv">
+							<div id="totalResults" class="col-xs-12 flex_item no-padding v-margin-bottom-15 priceDiv" style="display: none;">
 								<span class="price-line price-line-detail"></span>
 								<span class="labelPrice">Tổng cộng</span>
-								<span class="price totalPrice">5.560.000 <span class="tourItemCurrency">VND</span></span>
+								<span id="isPrice" class="price totalPrice">5.560.000 <span class="tourItemCurrency">VND</span></span>
 							</div>
 							<div class="col-xs-12 no-padding divBtnSubmit">
 								<div class="form-group no-margin">
@@ -703,7 +715,7 @@
 
 		function onInCreaseAdult() {
 			if (RateAdultPrice.style.display === "none") {
-				RateAdultPrice.style.display = "block";
+				RateAdultPrice.style.display = "none";
 			} else {
 				RateAdultPrice.style.display = "none";
 			}
@@ -712,7 +724,7 @@
 		};
 		function onDeCreaseAdult() {
 			if (RateAdultPrice.style.display === "none") {
-				RateAdultPrice.style.display = "block";
+				RateAdultPrice.style.display = "none";
 			} else {
 				RateAdultPrice.style.display = "none";
 			}
@@ -735,27 +747,36 @@
 	</script>
 	<script>
 		var RateAdultPrice = document.getElementById("RateAdultPrice");
+		var totalResults = document.getElementById("totalResults");
+		
 		
 		function onShowPrice(){
+
+			console.log("totalResults: ", totalResults);
+			console.log("RateAdultPrice: ", RateAdultPrice);
 			if (RateAdultPrice.style.display === "none") {
 				RateAdultPrice.style.display = "block";
 			} else {
 				RateAdultPrice.style.display = "none";
 			}
 
-			var count = parseInt(document.getElementById("isAdult").innerHTML);
-			var price = String(document.getElementById("RateAdultPrice").innerHTML);
-			var getPrice;
+			if (totalResults.style.display === "none") {
+				// console.log("noneeee", totalResults);
+				totalResults.style.display = "flex";
+			} 
 
-			var splitted = price.split("x ", 20);
-			for(var i = 0; i < splitted.length; i++){
-				getPrice = parseFloat(splitted[1]);
-				// console.log('okey: ',getPrice);
-			}
+			// var count = parseInt(document.getElementById("isAdult").innerHTML);
+			// var price = String(document.getElementById("RateAdultPrice").innerHTML);
+			// var getPrice;
 
-	
+			// var splitted = price.split("x ", 20);
+			// for(var i = 0; i < splitted.length; i++){
+			// 	getPrice = parseFloat(splitted[1]);
+			// }
+			// var resultPrice = getPrice * count;
+			// document.getElementById("isPrice").innerHTML = resultPrice;
 			// var cut = price.slice(3,);
-			console.log('giA TIEN: ', getPrice * count);
+			// console.log('giA TIEN: ', getPrice * count);
 		}
 	</script>
 </body>

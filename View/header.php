@@ -63,12 +63,12 @@
 							</li>
 						<?php else: ?>
 							<li class="nav-item dropdown user">
-								<a class="nav-link dropdown-toggle _1user" data-toggle="dropdown">
+								<a class="nav-link dropdown-toggle _1user" data-toggle="dropdown" >
 									<img src="images/user.png" alt="">
 								</a>
 								<div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
 									<a class="dropdown-item textnavbar" href="login.php">Đăng nhập</a>
-									<a class="dropdown-item textnavbar" href="#">Đăng ký</a>
+									<a class="dropdown-item textnavbar" href="dangky.php">Đăng ký</a>
 									<a class="dropdown-item textnavbar" href="thongtinkhachhang.php">Tài khoản</a>
 									<a class="dropdown-item textnavbar" href="donhang.php">Đơn hàng</a>
 								</div>
@@ -94,9 +94,8 @@
 		</nav> <!-- hết nav -->
 
 		<nav class="navbar navbar-expand-lg navbar-light bg-light navmaxwidth">
-
-		<!-- toggle top bar menu responsive -->
-			<div class="togglediv">
+			<!-- toggle top bar menu responsive -->
+			<!-- <div class="togglediv">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -124,16 +123,47 @@
 						</li>
 					</ul>
 				</div>
+			</div>  -->
+			<!-- hêt toggle div -->
+
+			<div class="togglediv">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse colapp" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto dsheaderduoi ">
+
+					<li class="nav-item ndheaderduoi dropdown">
+							<a class="nav-link dropdown-toggle mautextnav" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Du lịch<span class="sr-only">(current)</span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item borderbot" href="dulichmienbac.php">Hùng vĩ miền Bắc</a>
+								<a class="dropdown-item borderbot" href="dulichmienbac.php">Nắng gió miền Trung</a>
+								<a class="dropdown-item" href="dulichmienbac.php">Sông nước miền Nam</a>
+							</div>
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link mautextnav" href="#">Khách sạn</a>
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link mautextnav" href="lienhe.php">Liên hệ</a>
+						</li>
+						<li class="nav-item ndheaderduoi">
+							<a class="nav-link mautextnav" href="#">Book tour</a>
+						</li>
+					</ul>
+				</div>
 			</div> <!-- hêt toggle div -->
+			
 
 			<div class="trai">
 				<li class="nav-item hotline">
 					<a class="nav-link logotravel" href="index.php">
-						<span class="">502-Travel.vn</span>
+						<span class="">KINHDO-Travel.vn</span>
 					</a>
 				</li>
 			</div>
-
 		</nav>
 
 		<nav class="navbar navbar-light navduoi ">
@@ -145,7 +175,7 @@
 				<div class="trai">
 					<li class="nav-item hotline">
 						<a class="nav-link logotravel" href="index.php">
-							<span class="">502-Travel.vn</span>
+							<span class="">KINHDO-Travel.vn</span>
 						</a>
 					</li>
 				</div>
@@ -157,17 +187,17 @@
 							<div class="gnl_inner"> 
 								<div class="global_inner" id="navmore"> 
 									<ul> 
-										<li class=""> 
+										<li> 
 											<a href="dulichmienbac.php" class="noafter"> 
 												<span>Hùng vĩ miền Bắc</span> 
 											</a> 
 										</li> 
-										<li class=""> 
+										<li> 
 											<a href="#" class="noafter"> 
 												<span>Nắng gió miền Trung</span> 
 											</a> 
 										</li> 
-										<li class=""> 
+										<li> 
 											<a href="#" class="noafter"> 
 												<span>Sông nước miền Nam</span> 
 											</a> 
@@ -228,6 +258,12 @@
 				menuItem[i].className = "active"
 			}
 		}
+	</script>
+
+	<script type="text/javascript">
+		// const toggleMenuBar = document.querySelectorAll('._1user');
+
+
 	</script>
 	<!-- </body>
 </html> -->

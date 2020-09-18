@@ -6,13 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
 	<script type="text/javascript" src="scripts/1.js"></script>
+	<script type="text/javascript" src="scripts/hotelMore.js"></script>
 	<script type="text/javascript" src="scripts/hotel.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="./css/addMore.css">
+	<!-- <link rel="stylesheet" href="./css/hotelMore.css"> -->
+	<link rel="stylesheet" href="./css/1.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
 </head>
 <body class="body">
-        <?php include'header.php'; ?>
+	<?php include'header.php'; ?>
 	<div id="vnt-content">
 		<div id="vnt-navation" class="breadcrumb">
 			<div class="wrapper">
@@ -33,7 +38,7 @@
 			</div>
 		</div>
 
-		<div class="ht_gioithieu">
+		<div class="ht_gioithieu marginBot">
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="text-xs-center">
@@ -49,35 +54,299 @@
 					<li><b class="btn btn-outline-warning">Không gian</b></li>
 				</ul>
 			</div>
-			<div class="bonnd">
-				<ul>
-					<li>
-						<div class="ndct">
-							<img src="images/ht_gt1.jpg" alt="" class="float-xs-left">
-							<p>502-Travel chọn lọc những khách sạn đẳng cấp với mức giá lý tưởng dành cho người Việt</p>
-						</div>
-					</li>
-					<li>
-						<div class="ndct">
-							<img src="images/ht_gt2.jpg" alt="" class="float-xs-left">
-							<p> Đi khắp thế gian cùng người bạn yêu thương</p>
-						</div>
-					</li>
-					<li>
-						<div class="ndct">
-							<img src="images/ht_gt3.jpg" alt="" class="float-xs-left">
-							<p>Du lịch tháng 5 chẳng phải lăn tăn</p>
-						</div>
-					</li>
-					<li class="hienlen">
-						<div class="ndct">
-							<img src="images/ht_gt4.jpeg" alt="" class="float-xs-left">
-							<p>Thêm không gian cho gia đình và bạn bè.Rất nhiều lựa chọn hấp dẫn các căn hộ và biệt thự trên 502-Travel </p>
-						</div>
-					</li>
-				</ul>
+			<div class="bonnd container">
+				<div class="row">
+					<div class="col-xs-12">
+						<ul>
+							<li class="hienlen">
+								<div class="ndct">
+									<div class="col-xs-7">
+										<img src="images/ht_gt1.jpg" alt="" class="float-xs-left">
+									</div>
+									<div class="col-xs-5 txtDetailHotel">
+										<p>502-Travel chọn lọc những khách sạn đẳng cấp với mức giá lý tưởng dành cho người Việt. 
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+											Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+											It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ndct">
+									<div class="col-xs-7">
+										<img src="images/ht_gt2.jpg" alt="" class="float-xs-left">
+									</div>
+									<div class="col-xs-5 txtDetailHotel">
+										<p> Đi khắp thế gian cùng người bạn yêu thương
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+											Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+											It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ndct">
+									<div class="col-xs-7">
+										<img src="images/ht_gt3.jpg" alt="" class="float-xs-left">
+									</div>
+									<div class="col-xs-5 txtDetailHotel">
+										<p>502-Travel chọn lọc những khách sạn đẳng cấp với mức giá lý tưởng dành cho người Việt. 
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+											Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+											It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+										</p>
+									</div>
+								</div>
+							</li>
+							<li >
+								<div class="ndct">
+									<div class="col-xs-7">
+										<img src="images/ht_gt4.jpeg" alt="" class="float-xs-left">
+									</div>
+									<div class="col-xs-5 txtDetailHotel">
+										<p>502-Travel chọn lọc những khách sạn đẳng cấp với mức giá lý tưởng dành cho người Việt. 
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+											Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+											It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+										</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
 			</div>
 		</div> <!-- hết ht_gioithieu -->
+
+		<section class="bg_world1">
+			<div class="world_inner">
+					<div class="col-xs-12">
+						<div class="text-xs-center">
+							<h3 class="tdto mb-3 ht_tieude ">Điểm đến yêu thích trong nước</h3>
+						</div>
+					</div>
+				<ol class="w_list">
+					<li>
+						<a href="#">
+							<p class="label">
+								<span>TOP</span>
+								<span class="number">1</span>
+							</p>
+							<div class="w_body">
+								<div class="img_TopHotel">
+									<div class="rgba_TopHotel"></div>
+									<img src="images/ht_gt4.jpeg" alt="" class="img_TopHotel_detail">
+								</div>
+								<p class="text">
+									New Wave Vũng Tàu Hotel 3* (2N1D)
+								</p>
+							</div>
+							<p class="marginP">
+								<span class="link_more">
+									<span>Thêm</span>
+								</span>
+							</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<p class="label">
+								<span>TOP</span>
+								<span class="number">2</span>
+							</p>
+							<div class="w_body">
+								<div class="img_TopHotel">
+									<div class="rgba_TopHotel"></div>
+									<img src="images/ht_gt4.jpeg" alt="" class="img_TopHotel_detail">
+								</div>
+								<p class="text">
+									New Wave Vũng Tàu Hotel 3* (2N1D)
+								</p>
+							</div>
+							<p class="marginP">
+								<span class="link_more">
+									<span>Thêm</span>
+								</span>
+							</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<p class="label">
+								<span>TOP</span>
+								<span class="number">3</span>
+							</p>
+							<div class="w_body">
+								<div class="img_TopHotel">
+									<div class="rgba_TopHotel"></div>
+									<img src="images/ht_gt4.jpeg" alt="" class="img_TopHotel_detail">
+								</div>
+								<p class="text">
+									New Wave Vũng Tàu Hotel 3* (2N1D)
+								</p>
+							</div>
+							<p class="marginP">
+								<span class="link_more">
+									<span>Thêm</span>
+								</span>
+							</p>
+						</a>
+					</li>
+				</ol>
+			</div>
+		</section> <!-- hết world -->
+
+		<article id="global_contents" class="global_contents _module_contents _bg_color-beige" role="main" itemscope="" itemprop="mainContentOfPage">
+			<div class="col-xs-12">
+				<div class="text-xs-center">
+					<h3 class="tdto mb-3 ht_tieude npadhotel">Điểm đến yêu thích nước ngoài</h3>
+				</div>
+			</div>
+			<section class="rePaddingSection">
+				<div class="global_inner"> 
+					<ul class="module_card-02"> 
+						<li> 
+							<a href="#"> 
+								<p class="image">
+									<img src="images/dd1.jpg" alt="Lời ngỏ">
+								</p> 
+								<h2 class="title">KyDepTrai</h2> 
+							</a> 
+						</li> 
+						<li> 
+							<a href="#"> 
+								<p class="image">
+									<img src="images/dd2.jpg" alt="Lịch sử hình thành">
+								</p> 
+								<h2 class="title">đâu cũng được</h2> 
+							</a> 
+						</li> 
+						<li> 
+							<a href="#"> 
+								<p class="image">
+									<img src="images/dd3.jpg" alt="Gương mặt giáo viên">
+								</p> 
+								<h2 class="title">Olosoaveto</h2> 
+							</a> 
+						</li> 
+						<li> 
+							<a href="#"> 
+								<p class="image">
+									<img src="images/dd4.jpg" alt="Thư viện ảnh">
+								</p> 
+								<h2 class="title">Cua kì cục</h2> 
+							</a> 
+						</li> 
+						<li> 
+							<a href="#"> 
+								<p class="image">
+									<img src="images/ht_gt1.jpg" alt="Thư viện ảnh">
+								</p> 
+								<h2 class="title">Sion feed to win</h2> 
+							</a> 
+						</li> 
+						<li> 
+							<a href="#"> 
+								<p class="image">
+									<img src="images/ht_gt2.jpg" alt="Thư viện ảnh">
+								</p> 
+								<h2 class="title">Momoa</h2> 
+							</a> 
+						</li> 
+					</ul> 
+				</div>
+			</section>
+		</article>
+
+		<!-- <section>
+			<div class="world_inner noPadding">
+				<div class="global_inner">
+					<h2 class="top_title-01 _under-TB _align-left">
+						<span>Giới thiệu</span>
+					</h2>
+					<div class="module_imageBox-01 _scroll_flag _scroll_anime gl_margin">
+						<div class="head">
+							<p class="image">
+								<img src="images/about1.jpg" alt="">
+							</p> 
+						</div> 
+						<h2 class="top_title-01">
+							<span>
+								<span>Giới thiệu</span>
+							</span>
+						</h2> 
+						<div class="body scroll1" id="thescroll1"> 
+							<p>Hãy ghé thăm trang này để biết về Kỷ</p>
+							<p class="_align-center">
+								<a href="/about/" class="module_button-03">
+									<span>
+										Thêm
+									</span>
+								</a>
+							</p> 
+						</div>
+					</div>
+
+					<h2 class="top_title-01 _under-TB _align-left">
+						<span>Thư viện ảnh</span>
+					</h2>
+					<div class="module_imageBox-01 _order _scroll_flag _scroll_anime"> 
+						<div class="head"> 
+							<p class="image">
+								<img src="images/about3.jpg" alt="">
+							</p> 
+						</div> 
+						<h2 class="top_title-01">
+							<span>Thư viện ảnh</span>
+						</h2> 
+						<div class="body _scroll_flag _scroll_anime scroll1" id="thescroll3"> 
+							<p>Hãy click vào đây để xem hotel</p>
+							<p class="_align-center">
+								<a href="/about/gallery/" class="module_button-03">
+									<span>Thêm</span>
+								</a>
+							</p> 
+						</div> 
+					</div>
+
+					<h2 class="top_title-01 _under-TB _align-left">
+						<span>Ha haaaa cười lên điii</span>
+					</h2>
+					<div class="module_imageBox-01 _scroll_flag _scroll_anime"> 
+						<div class="head"> 
+							<p class="image">
+								<img src="images/about2.jpg" alt="">
+							</p> 
+						</div> 
+						<h2 class="top_title-01">
+							<span>
+								zâu
+							</span>
+						</h2> 
+						<div class="body scroll1" id="thescroll2">
+							<p>
+								vịnh Hạ Long
+							</p> 
+							<p class="_align-center">
+								<a href="/admissions/" class="module_button-03">
+									<span>Thêm</span>
+								</a>
+								<a href="/admissions/download/" class="module_button-04">
+									<span>cái gì đó</span>
+								</a>
+							</p> 
+						</div> 
+					</div>
+
+				</div>
+			</div>
+		</section> -->
+
+
+		
 
 		<div class="traveldexuat noidung3">
 			<div class="container">

@@ -103,7 +103,7 @@ document.addEventListener( "DOMContentLoaded", () => {
         // startNextDistortAnimation();
         nextBtn.click();
         // auto click button
-    },2000);
+    },4000);
 
 
 

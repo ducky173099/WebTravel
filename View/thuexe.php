@@ -112,9 +112,9 @@
 						</div>
 
 						<!-- <div style="text-align: justify;">&nbsp;</div>           -->
-						<span style="clear:both; float: right; margin: 10px 0; color: orange; cursor: pointer;" id="xemthem" data-id="143" data-table="category">Xem thêm 
+						<!-- <span style="clear:both; float: right; margin: 10px 0; color: orange; cursor: pointer;" id="xemthem" data-id="143" data-table="category">Xem thêm 
 							<i class="fa fa-angle-double-right"></i>
-						</span>
+						</span> -->
 					</div>
 				</div>
 			</div>
