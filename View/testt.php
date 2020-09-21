@@ -12,96 +12,73 @@
 	<link rel="stylesheet" href="main.css">
 	<!-- <link rel="stylesheet" href="./css/addMore.css"> -->
 	<link rel="stylesheet" href="./css/1.css">
+	<link rel="stylesheet" href="./css/tiltEffect.scss">
 </head>
 <body>
-<section>
-			<div class="global_inner">
-				<h2 class="top_title-01 _under-TB _align-left">
-					<span>Giới thiệu</span>
-				</h2>
-				<div class="module_imageBox-01 _scroll_flag _scroll_anime gl_margin">
-					<div class="head">
-						<p class="image">
-							<img src="images/qg1.jpg" alt="">
-						</p> 
-					</div> 
-					<h2 class="top_title-01">
-						<span>
-							<span>Giới thiệu</span>
-						</span>
-					</h2> 
-					<div class="body scroll1" id="thescroll1"> 
-						<!-- <div id="thescroll"></div> -->
-						<p>Hãy ghé thăm trang này để biết về trường TWJLS</p>
+<div id="app-container" data-tilt >
+  <div id="app">
+    <vue-tabs id="tabs">
+      <v-tab title="First Tab" class="tab" :selected="true">
+        <div class="tab-content">
+          <div class="tab-image first-image"></div>
+          <div class="tab-content-text">
+            <h1>First Header</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt nu aliqua. Sollicit udin purus faucibus ornare aliquam ultrices sagittis orci a scelerisque a consectetur atna purus.</p>
+          </div>
+        </div>
+      </v-tab>
+    </vue-tabs>
+  </div>
+</div>
 
-						<p class="_align-center">
-							<a href="/about/" class="module_button-03">
-								<span>
-									<font style="vertical-align: inherit;">
-										<font style="vertical-align: inherit;">thêm</font>
-									</font>
-								</span>
-							</a>
-						</p> 
-					</div>
-				</div>
-				<h2 class="top_title-01 _under-TB _align-left">
-					<span>Hướng dẫn nhập học</span>
-				</h2>
-				<div class="module_imageBox-01 _scroll_flag _scroll_anime"> 
-					<div class="head"> 
-						<p class="image">
-							<img src="image/about2.jpg" alt="">
-						</p> 
-					</div> 
-					<h2 class="top_title-01">
-						<span>
-							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;">Hướng dẫn nhập học</font>
-							</font>
-						</span>
-					</h2> 
-					<div class="body scroll1" id="thescroll2">
-						<!-- <div id="thescroll"></div>  -->
-						<p>
-							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;">Vui lòng xem các thủ tục cần thiết để nhập TWJLS.</font>
-							</font>
-						</p> 
-						<p class="_align-center">
-							<a href="/admissions/" class="module_button-03">
-								<span>Thêm</span>
-							</a>
-							<a href="/admissions/download/" class="module_button-04">
-								<span>Tải đơn nhập học</span>
-							</a>
-						</p> 
-					</div> 
-				</div>
-				<h2 class="top_title-01 _under-TB _align-left">
-					<span>Thư viện ảnh</span>
-				</h2>
-				<div class="module_imageBox-01 _order _scroll_flag _scroll_anime"> 
-					<div class="head"> 
-						<p class="image">
-							<img src="image/about3.jpg" alt="">
-						</p> 
-					</div> 
-					<h2 class="top_title-01">
-						<span>Thư viện ảnh</span>
-					</h2> 
-					<div class="body _scroll_flag _scroll_anime scroll1" id="thescroll3"> 
-						<!-- <div id="thescroll"></div> -->
-						<p>Hãy click vào đây để xem những hoạt động diễn ra tại TWJLS</p>
-						<p class="_align-center">
-							<a href="/about/gallery/" class="module_button-03">
-								<span>Thêm</span>
-							</a>
-						</p> 
-					</div> 
-				</div>
-			</div>
-		</section>
+<div id="app-container" data-tilt >
+  <div id="app">
+    <vue-tabs id="tabs">
+      <v-tab title="First Tab" class="tab" :selected="true">
+        <div class="tab-content">
+          <div class="tab-image first-image"></div>
+          <div class="tab-content-text">
+            <h1>First Header</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt nu aliqua. Sollicit udin purus faucibus ornare aliquam ultrices sagittis orci a scelerisque a consectetur atna purus.</p>
+          </div>
+        </div>
+      </v-tab>
+    </vue-tabs>
+  </div>
+</div>
+<div id="app-container" data-tilt >
+  <div id="app">
+    <vue-tabs id="tabs">
+      <v-tab title="First Tab" class="tab" :selected="true">
+        <div class="tab-content">
+          <div class="tab-image first-image"></div>
+          <div class="tab-content-text">
+            <h1>First Header</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt nu aliqua. Sollicit udin purus faucibus ornare aliquam ultrices sagittis orci a scelerisque a consectetur atna purus.</p>
+          </div>
+        </div>
+      </v-tab>
+    </vue-tabs>
+  </div>
+
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="js/tilt.jquery.js"></script>
+<script src="text/javascript">
+	new Vue({
+		el:"#app",
+	});
+
+	$('.js-tilt').tilt({
+
+	})
+
+</script>
+			
 </body>
 	<script type="text/javascript" src="scripts/hotelMore.js"></script>
 	<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>

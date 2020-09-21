@@ -4,9 +4,6 @@
 	<meta charset="UTF-8">
 	<title>thong tin khac hang</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<script type="text/javascript" src="vendor/bootstrap.js"></script>
-	<script type="text/javascript" src="bootstrap.js"></script>
-	<script type="text/javascript" src="scripts/1.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="main.css">
@@ -308,4 +305,7 @@
 		})  
 	</script>
 </body>
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>
+	<!-- <script type="text/javascript" src="scripts/1.js"></script> -->
 </html>

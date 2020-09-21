@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="./css/addMore.css">
 	<link rel="stylesheet" href="./css/1.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="./css/tiltEffect.scss">
 </head>
 <body class="body">
 <?php include'header.php'; ?>
@@ -121,308 +122,87 @@
 								<strong>du lịch</strong>
 								<em>
 									<strong> Miền Bắc </strong>
-								</em>ngay bên dưới:
+								</em>ngay bên dưới
 							</span>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<section class="_bg_color-blue-01" id="top_news"> 
-				<h2 class="top_title-01">
-					<span>NEWS</span>
-				</h2> 
-				<div class="bx-wrapper" style="max-width: 100%;">
-					<marquee id="mymarquee" width="10%" onmouseover="this.stop()" onmouseout="this.start()" behavior="alternate" class="bx-viewport" style="width: 100%; overflow: hidden; position: relative;">
-						<ul class="module_card-01" style="width: 500%; position: relative; transition-duration: 59.7534s; transform: translate3d(-210px, 0px, 0px); transition-timing-function: linear;"> 
-							<li id="bofloat" style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="#"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<!-- <noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript> -->
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 10.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-08-06">2019.08.06</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li id="bofloat2" style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="#"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx2.jpg" width="360" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="360" height="240" src="/wp/wp-content/uploads/2019/07/DSC_1203-360x240.jpg" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Lễ khai giảng khóa tháng 7 năm 2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-07-05">2019.07.05</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li id="bofloat" style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx3.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx4.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-							<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
-								<a href="https://twla.jp/vi/news/3945/"> 
-									<div class="head"> 
-										<p class="image">
-											<img src="images/tx1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
-											<noscript><img width="331" height="240" src="/wp/wp-content/uploads/2019/02/学校丸マーク青3-331x240.png" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" /></noscript>
-										</p> 
-									</div> 
-									<div class="body"> 
-										<h2 class="title">Buổi giới thiệu trường,kiểm tra phân lớp và lễ khai giảng cho kỳ tháng 7.2019</h2> 
-										<p class="text"></p> 
-										<p class="date">
-											<time datetime="2019-06-25">2019.06.25</time>
-										</p> 
-										<p>
-											<span class="module_link-more01">
-												<span>hơn</span>
-											</span>
-										</p> 
-									</div> 
-								</a> 
-							</li> 
-						</ul>
-					</marquee>
-					<script>
-						var manhinh = screen.width;
-						console.log(manhinh);
-						var news = document.getElementById('bofloat');
-						var news2 = document.getElementById('bofloat2');
-						var marque = document.getElementById('mymarquee');
-						if (manhinh < 768) {
-							marque.stop();
-							news.classList.add('removefloat');
-							news2.classList.add('removefloat');
-						}
-					</script>
-				</div> 
-				<p class="_align-center">
-					<a href="https://twla.jp/vi/news/" class="module_button-01">
-						<span>hơn</span>
-					</a>
-				</p> 
-			</section>
+			<div class="container nopadding divTiltEffect">
+				<div class="col-xs-12">
+					<div class="text-xs-center">
+						<h3 class="tdto mb-3 ht_tieude nopadTilt">Mùa thu vàng miền Bắc</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div id="app-container" data-tilt >
+							<div id="app">
+								<vue-tabs id="tabs">
+									<v-tab title="First Tab" class="tab" :selected="true">
+										<div class="tab-content">
+											<!-- <div class="tab-image first-image"></div> -->
+											<img class="tab-image first-image" src="images/dd1.jpg" alt="">
+											<div class="backgroundHover"></div>
+											<div class="tab-content-text">
+												<h1>Hạ Long</h1>
+												<p class="detailtTilt">Vịnh Hạ Long là địa điểm vô cùng đẹp của nước ta, đã được UNESCO công nhận di sản thiên nhiên thế giới. Đây cũng là một nơi du lịch được rất nhiều người trong và ngoài nước yêu thích...</p>
+											</div>
+										</div>
+									</v-tab>
+								</vue-tabs>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div id="app-container" data-tilt >
+							<div id="app">
+								<vue-tabs id="tabs">
+									<v-tab title="First Tab" class="tab" :selected="true">
+										<div class="tab-content">
+										<!-- <div class="tab-image first-image"></div> -->
+										<img class="tab-image first-image" src="images/dd2.jpg" alt="">
+										<div class="backgroundHover"></div>
+										<div class="tab-content-text">
+											<h1>Hà Giang</h1>
+											<p class="detailtTilt">Hà Giang mang đến nhiều trải nghiệm thú vị. Hà Giang không chỉ đẹp bởi phong cảnh hùng vĩ, những con đường uốn lượn quanh co dài bất tận, mà nó còn đẹp bởi Sắc Hoa và Tình Người...</p>
+										</div>
+										</div>
+									</v-tab>
+								</vue-tabs>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div id="app-container" data-tilt >
+							<div id="app">
+								<vue-tabs id="tabs">
+									<v-tab title="First Tab" class="tab" :selected="true">
+										<div class="tab-content">
+										<!-- <div class="tab-image first-image"></div> -->
+										<img class="tab-image first-image" src="images/dd3.jpg" alt="">
+										<div class="backgroundHover"></div>
+										<div class="tab-content-text">
+											<h1>Đà Nẵng</h1>
+											<p class="detailtTilt">Siêu phẩm Cây Cầu Vàng Đà Nẵng trên đỉnh Bà Nà Hill vừa được trình làng thơ mộng khiến cánh báo giới quốc tế không ngớt lời ca ngợi. Với thiết kế vô cùng ấn tượng, hai bàn tay rêu phong to lớn vươn ra từ thân núi nắm lấy tấm lụa vàng lơ lửng giữa trời...</p>
+										</div>
+										</div>
+									</v-tab>
+								</vue-tabs>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- row hieu ung tilt efect -->
+			</div>
 
 			<div class="noidung3 noidung4 ">
-				<div class="container">
+				<div class="container marginBotND3">
+					
+
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="text-xs-center">
@@ -529,6 +309,288 @@
 					</div>
 				</div> <!-- hết row  -->
 
+				<!-- section maquee -->
+				<section class="_bg_color-blue-01 paddingVerNone" id="top_news"> 
+					<h2 class="top_title-01 titleMargin">
+						<span>Một số tour khác</span>
+					</h2> 
+					<div class="bx-wrapper" style="max-width: 100%;">
+						<marquee id="mymarquee" width="10%" onmouseover="this.stop()" onmouseout="this.start()" behavior="alternate" class="bx-viewport" style="width: 100%; overflow: hidden; position: relative;">
+							<ul class="module_card-01" style="width: 500%; position: relative; transition-duration: 59.7534s; transform: translate3d(-210px, 0px, 0px); transition-timing-function: linear;"> 
+								<li id="bofloat" style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/ht4.jpeg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a> 
+								</li> 
+								<li id="bofloat2" style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/ht3.jpeg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ blal</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a> 
+								</li> 
+								<li id="bofloat" style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/ht2.jpeg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a> 
+								</li> 
+								<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+								<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/ht1.jpeg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a> 
+								</li> 
+								<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/dalat.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a> 
+								</li> 
+								<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/giamg2.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a> 
+								</li> 
+								<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/giamg1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a> 
+								</li> 
+								<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/dd4.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a> 
+								</li> 
+								<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/dd1.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a>  
+								</li> 
+								<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/dd2.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a>  
+								</li> 
+								<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/dd3.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a>  
+								</li> 
+								<li style="float: left; list-style: none; position: relative; width: 335px; margin-right: 30px;"> 
+									<a href="#"> 
+										<div class="head"> 
+											<p class="image">
+												<img src="images/ht_gt2.jpg" width="331" height="240" class="attachment-top_thumbnail size-top_thumbnail wp-post-image" alt="" data-lazy-loaded="true" style="display: block;">
+											</p> 
+										</div> 
+										<div class="body"> 
+											<h2 class="title">Nhà của Kỷ</h2> 
+											<p class="text"></p> 
+											<p class="date">
+												<time datetime="2019-08-06">2020.09.20</time>
+											</p> 
+											<p>
+												<span class="module_link-more01">
+													<span>Xem</span>
+												</span>
+											</p> 
+										</div> 
+									</a>  
+								</li> 
+							</ul>
+						</marquee>
+						<script>
+							var manhinh = screen.width;
+							console.log(manhinh);
+							var news = document.getElementById('bofloat');
+							var news2 = document.getElementById('bofloat2');
+							var marque = document.getElementById('mymarquee');
+							if (manhinh < 768) {
+								marque.stop();
+								news.classList.add('removefloat');
+								news2.classList.add('removefloat');
+							}
+						</script>
+					</div> 
+					<p class="_align-center btnMargin">
+						<a href="https://twla.jp/vi/news/" class="module_button-01">
+							<span>hơn</span>
+						</a>
+					</p> 
+				</section>
+				<!-- het section -->
 				<div class="row mbac_more">
 					<div class="col-sm-4">
 						<div class="sp">
@@ -731,7 +793,22 @@
 	</script>
 </body>
 </html>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="js/tilt.jquery.js"></script>
+<script src="text/javascript">
+	new Vue({
+		el:"#app",
+	});
 
+	$('.js-tilt').tilt({
+
+	})
+
+</script>
 <script type="text/javascript">
 	$(document).on('click', '.dsheaderduoi li a', function(){
 		var tab = $(this).data('tab');

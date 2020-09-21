@@ -123,11 +123,11 @@
 
 		<section class="bg_world1">
 			<div class="world_inner">
-					<div class="col-xs-12">
-						<div class="text-xs-center">
-							<h3 class="tdto mb-3 ht_tieude ">Điểm đến yêu thích trong nước</h3>
-						</div>
+				<div class="col-xs-12">
+					<div class="text-xs-center">
+						<h3 class="tdto mb-3 ht_tieude ">Điểm đến yêu thích trong nước</h3>
 					</div>
+				</div>
 				<ol class="w_list">
 					<li>
 						<a href="#">

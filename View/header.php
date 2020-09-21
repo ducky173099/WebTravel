@@ -11,7 +11,9 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body class="body"> -->
-	<?php include'../Model/server.php'; ?>
+	<?php 
+	// include'../Model/server.php';
+	 ?>
 
 	<div class="khoiheader ">	
 		<nav class="navbar navbar-expand-lg navbar-dark info-color khoinav ">
