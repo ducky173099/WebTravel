@@ -3,17 +3,12 @@
 	<title> Travel </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<script type="text/javascript" src="vendor/bootstrap.js"></script>
-	<script type="text/javascript" src="scripts/1.js"></script>
-	<script type="text/javascript" src="scripts/activeColorMenuBar.js"></script>
+
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body class="body"> -->
-	<?php 
-	// include'../Model/server.php';
-	 ?>
 
 	<div class="khoiheader ">	
 		<nav class="navbar navbar-expand-lg navbar-dark info-color khoinav ">
@@ -65,7 +60,7 @@
 							</li>
 						<?php else: ?>
 							<li class="nav-item dropdown user">
-								<a class="nav-link dropdown-toggle _1user" data-toggle="dropdown" >
+								<a class="nav-link dropdown-toggle _1user" data-toggle="dropdown">
 									<img src="images/user.png" alt="">
 								</a>
 								<div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
@@ -76,10 +71,6 @@
 								</div>
 							</li>
 						<?php endif; ?>
-
-						
-
-
 						<li class="nav-item">
 							<img src="images/line.png" alt="">
 						</li>
@@ -135,7 +126,7 @@
 				<div class="collapse navbar-collapse colapp" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto dsheaderduoi ">
 
-					<li class="nav-item ndheaderduoi dropdown">
+						<li class="nav-item ndheaderduoi dropdown">
 							<a class="nav-link dropdown-toggle mautextnav" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Du lịch<span class="sr-only">(current)</span>
 							</a>
@@ -162,7 +153,7 @@
 			<div class="trai">
 				<li class="nav-item hotline">
 					<a class="nav-link logotravel" href="index.php">
-						<span class="">KINHDO-Travel.vn</span>
+						<span class="">KINHDO - Travel.vn</span>
 					</a>
 				</li>
 			</div>
@@ -177,7 +168,7 @@
 				<div class="trai">
 					<li class="nav-item hotline">
 						<a class="nav-link logotravel" href="index.php">
-							<span class="">KINHDO-Travel.vn</span>
+							<span class="">KINHDO - Travel.vn</span>
 						</a>
 					</li>
 				</div>
@@ -261,11 +252,8 @@
 			}
 		}
 	</script>
-
-	<script type="text/javascript">
-		// const toggleMenuBar = document.querySelectorAll('._1user');
-
-
-	</script>
 	<!-- </body>
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+	<script type="text/javascript" src="scripts/1.js"></script>
+	<script type="text/javascript" src="scripts/activeColorMenuBar.js"></script>
 </html> -->

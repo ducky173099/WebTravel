@@ -14,7 +14,10 @@
 	<link rel="stylesheet" href="./css/tiltEffect.scss">
 </head>
 <body class="body">
-<?php include'header.php'; ?>
+<?php 
+	// include'header.php';
+	include'testt.php';
+	?>
 
 	<div id="vnt-content">
 		<div id="vnt-navation" class="breadcrumb">
@@ -71,7 +74,7 @@
 							<div class="fb-like" data-href="https://dulichviet.com.vn/du-lich-mien-bac" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 						</div>
 
-						<div class="mda-rating">
+						<!-- <div class="mda-rating">
 							<div class="rating" data-value="4.54" data-index="296">
 								<div class="rating-tt"> 
 									<b> Đánh giá: </b>
@@ -96,27 +99,27 @@
 									</span>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 					<div class="mda-archive-content" itemprop="description">
-						<div style="text-align: justify;">&nbsp;</div>
+						<!-- <div style="text-align: justify;">&nbsp;</div> -->
 
 						<div style="text-align: justify;">
 							<span style="font-size:14px;">
-								<a href="https://dulichviet.com.vn/du-lich-mien-bac">
+								<a href="#">
 									<strong>Du lịch Miền Bắc</strong>
 								</a> - <b>Miền Bắc&nbsp;</b>mang nhiều dấu ấn lịch sử lâu đời từ thời Vua Hùng dựng nước&nbsp;cho đến các triều đại phong kiến giữ nước. 
-								<a href="https://dulichviet.com.vn/du-lich-mien-bac">
+								<a href="#">
 									<strong>Du lịch Miền Bắc</strong>
 								</a>&nbsp;là hành trình hấp dẫn dành cho những ai yêu thích lịch sử, mong muốn tìm hiểu và trải nghiệm những điều mới mẻ mà chỉ vùng đất 
 								<em>"Bắc kỳ"</em> mới có. Đến với 
 								<strong>
-									<a href="https://dulichviet.com.vn/du-lich-mien-bac">Tour du lịch Miền Bắc</a>
+									<a href="#">Tour du lịch Miền Bắc</a>
 								</strong> du khách sẽ được tham quan những di tích lịch sử lâu đời, được hóa thân vào các vai Vua chúa, quan đại thần, cung phi, hoàng hậu,.... Quý khách có thể đặt 
 								<strong>
-									<a href="https://dulichviet.com.vn/du-lich-mien-bac" target="_blank">tour đi Miền Bắc</a> 
+									<a href="#" target="_blank">tour đi Miền Bắc</a> 
 								</strong>trực tuyến ngay tại website 
-								<a href="http://dulichviet.com.vn">
+								<a href="#">
 									<strong>Du Lịch Việt</strong>
 								</a> để nhận được nhiều ưu đãi hấp dẫn. Hoặc tham khảo thêm các thông tin khuyến mãi 
 								<strong>du lịch</strong>

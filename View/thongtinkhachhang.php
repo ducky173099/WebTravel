@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="./css/addMore.css">
 </head>
 <body class="body">
 	<?php include'header.php'; ?>
@@ -170,8 +171,6 @@
 				</div>
 			</div>
 		</div>
-
-
 	</div>
 
 

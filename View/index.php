@@ -18,7 +18,10 @@
 	<link rel="stylesheet" href="./css/slide.css">
 </head>
 <body class="body">
-	<?php include'header.php';?>
+	<?php 
+	// include'header.php';
+	include'testt.php';
+	?>
 
 
 	
