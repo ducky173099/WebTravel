@@ -1,8 +1,6 @@
-
-/* .dropdown.user:focus .dropdown-menu{
-	display: block !important;
-	
-} */
+a:hover{
+	text-emphasis: none !important;
+}
 /*------ start world ---------------*/
 .bg_world1{
 	/* background: url("image/bg_map1.svg") no-repeat center top/110%;
@@ -671,4 +669,92 @@ font-size: 1.3rem;*/
 		color: #3588BA;
 	}
 
+}
+
+
+/* ------------------ about ---------------- */
+.module_title-02 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a4B8F;
+}
+[class*="module_"]:not([class*="module_title"]) + .module_title-02, [class*="module_"]:not([class*="module_title"]) + .module_title-03, p:not([class]) + .module_title-02, p:not([class]) + .module_title-03, p[class^="_"] + .module_title-02, p[class^="_"] + .module_title-03 {
+    margin-top: 50px;
+}
+p:not([class]) + [class*="module_"]:not([class*="module_title"]):not([class*="module_button"]), p[class^="_"] + [class*="module_"]:not([class*="module_title"]):not([class*="module_button"]) {
+    margin-top: 40px;
+}
+ul.module_list-01 li, ul.module_list-notes-01 li, ol.module_list-01 li {
+    position: relative;
+    padding-left: 1.25em;
+}
+ul.module_list-01 li::before {
+    top: .6em;
+    width: 8px;
+    height: 8px;
+    background-color: #3588BA;
+}
+ul.module_list-01 li::before, ul.module_list-notes-01 li::before, ol.module_list-01 li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+ul.module_list-01 li + li, ul.module_list-notes-01 li + li, ol.module_list-01 li + li {
+    margin-top: .5em;
+}
+[class*="module_"]:not([class*="module_title"]):not([class*="module_button-"]) + p:not([class]){
+	margin-top: 40px;
+}
+.module_title-01 {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #1a4B8F;
+    padding-bottom: .5em;
+    font-family: 'Noto Serif JP','游明朝',serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #1a4B8F;
+}
+@media (min-width: 768px){
+	.local_inner {
+		max-width: calc(800px + 60px);
+	}
+	.global_inner, .local_inner {
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+}
+.namenews{
+	margin: 0 !important;
+}
+.ngaydang{
+	font-size: 11px;
+	color: #327f98;
+	margin: 0 !important;
+}
+.motanews{
+	margin-top: 5px;
+}
+.chitietngaydang{
+	display: flex;
+}
+.chitietngaydang p{
+	color: #327f98;
+	margin: 0!important;
+}
+.chitietngaydang div{
+	color: #327f98;
+	margin-left: 5px;
+}
+.chitietmota{
+	display: flex;
+}
+.chitietmota div{
+	margin-left: 5px;
+}
+#vnt-content{
+	padding-top: 60px;
+}
+.breadcrumb .container{
+	max-width: 1200px;
 }

@@ -26,104 +26,9 @@ body .global_header {
     max-width: none;
     height: inherit;
 }
-/* .global_header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    max-width: none;
-    height: inherit;
-} */
-/* header{
-    position: relative;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #fff;
-    box-sizing: border-box;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+#topheader .navbar{
+    background: linear-gradient(135deg, #657d90, #446a88) !important;
 }
-.logo{
-    color: #069370;
-    height: 60px;
-    font-size: 36px;
-    line-height: 60px;
-    background: #ccc;
-    text-align: center;
-    box-sizing: border-box;
-    float: left;
-    font-weight: 700;
-    text-decoration: none;
-}
-.clearfix{
-    clear: both;
-}
-nav ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-nav ul li a{
-    display: block;
-    margin: 10px 0;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #262626;
-}
-nav ul li a.active, nav ul li a:hover{
-    background: #069370;
-    color: #fff;
-    transition: 0.5s;
-}
-@media (max-width: 1200px){
-    header{
-        margin: 20px;
-    }
-}
-@media (max-width: 768px){
-    .menu-toggle{
-        margin: 20px;
-        width: 40px;
-        height: 40px;
-        margin: 10px;
-        background: #ccc;
-        float: right;
-        cursor: pointer;
-        text-align: center;
-        font-size: 30px;
-        color: #069370;
-    }
-    .menu-toggle:before{
-        content: '\f0c9';
-        font-family: FontAwesome;
-        line-height: 40px;
-    }
-    .menu-toggle.active:before{
-        content: '\f00d';
-        font-family: FontAwesome;
-        line-height: 40px;
-    }
-    nav{
-        display: none;
-    }
-    nav.active{
-        display: block;
-        width: 100%;
-    }
-    nav.active ul{
-        display: block;
-    }
-    nav.active ul li a{
-        margin: 0;
-    }
-} */
-
-
-
-
-
-
-
 
 nav{
     height: 60px;
@@ -140,7 +45,6 @@ nav{
     position: relative;
     margin: 0 auto;
     width: 1000px;
-    /* overflow: hidden; */
     padding-left: 300px;
 }
 .menu ul{
@@ -244,11 +148,6 @@ nav{
     border: none;
     outline: none;
     font-size: 16px;
-    /* border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-bottom-width: 0.5px;
-    border-bottom-color: aliceblue; */
 }
 .search-form input::placeholder{
     color: #fff;
@@ -266,7 +165,7 @@ nav{
     position: absolute;
     right: 110px;
     top: 9px;
-    background: #343a40;
+    /* background: #343a40; */
     color: #fff;
     font-size: 18px;
     width: 24px;
@@ -296,7 +195,6 @@ nav{
     .search-form{
         display: block;
     }
-
 
 
 } 
@@ -640,4 +538,7 @@ a.current span{
 .noUnderline:hover{
     text-decoration: none;
     color: #000;
+}
+nav.global_navigation ul.gn_links-01 li a:hover{
+    text-decoration: none;
 }

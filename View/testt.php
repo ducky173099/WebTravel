@@ -11,8 +11,8 @@
 <body>
 	<div id="topheader">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-			<!-- <div class="container"> -->
-				<a class="navbar-brand" href="#">KinhDO - Travel</a>
+			<div class="container">
+				<a class="navbar-brand" href="index.php">KinhDO - Travel</a>
 			
 				<div class=" menu" >
 					<ul class="navbar-nav mr-auto w-100 justify-content-end menuBar">
@@ -42,7 +42,7 @@
 					</div>
 					<a href="#" class="close"><i class="fa fa-times"></i></a>
 				</div>
-			<!-- </div> -->
+			</div>
 		</nav>
 	</div>
 	<nav id="global_navigation" class="global_navigation" role="navigation" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
@@ -92,6 +92,11 @@
 				<li> 
 					<a href="lienhe.php"  class="noUnderline"> 
 						<span class="titleHeader">Liên hệ</span> 
+					</a> 
+				</li>
+				<li> 
+					<a href="about.php"  class="noUnderline"> 
+						<span class="titleHeader">Giới thiệu</span> 
 					</a> 
 				</li>
 			</ul>

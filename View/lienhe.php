@@ -21,22 +21,24 @@
 
 	<div id="vnt-content">
 		<div id="vnt-navation" class="breadcrumb">
-			<div class="wrapper">
-				<div class="navation">
-					<ul>
-						<li>
-							<a title="Trang chủ" href="index.php">
-								<span itemprop="title">Trang chủ</span>
-							</a>
-						</li>
-						<li>
-							<a href="lienhe.php">
-								<span>Liên hệ</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+			<div class="container">
+                <div class="wrapper">
+                    <div class="navation">
+                        <ul>
+                            <li>
+                                <a title="Trang chủ" href="index.php">
+                                    <span itemprop="title">Trang chủ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="lienhe.php">
+                                    <span>Liên hệ</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 		</div> <!-- hết breadcrumb -->
 		<div class="main_lienhe">
 			<div class="container ">

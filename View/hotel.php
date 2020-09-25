@@ -23,22 +23,24 @@
 	?>
 	<div id="vnt-content">
 		<div id="vnt-navation" class="breadcrumb">
-			<div class="wrapper">
-				<div class="navation">
-					<ul>
-						<li>
-							<a title="Trang chủ" href="index.php">
-								<span itemprop="title">Trang chủ</span>
-							</a>
-						</li>
-						<li>
-							<a href="hotel.php">
-								<span>Khách sạn</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+			<div class="container">
+                <div class="wrapper">
+                    <div class="navation">
+                        <ul>
+                            <li>
+                                <a title="Trang chủ" href="index.php">
+                                    <span itemprop="title">Trang chủ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="lienhe.php">
+                                    <span>Khách sạn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 		</div>
 
 		<div class="ht_gioithieu marginBot">

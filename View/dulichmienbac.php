@@ -12,38 +12,57 @@
 	<link rel="stylesheet" href="./css/1.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link rel="stylesheet" href="./css/tiltEffect.scss">
+	<link rel="stylesheet" href="./css/videoCube.css">
 </head>
 <body class="body">
 <?php 
 	// include'header.php';
 	include'testt.php';
 	?>
+	
 
 	<div id="vnt-content">
 		<div id="vnt-navation" class="breadcrumb">
-			<div class="wrapper">
-				<div class="navation">
-					<ul>
-						<li>
-							<a title="Trang chủ" href="index.php">
-								<span itemprop="title">Trang chủ</span>
-							</a>
-						</li>
-						<li>
-							<a href="dulichmienbac.php">
-								<span>Du Lịch miền Bắc</span>
-							</a>
-						</li>
-					</ul>
+			<div class="container">
+				<div class="wrapper">
+					<div class="navation">
+						<ul>
+							<li>
+								<a title="Trang chủ" href="index.php">
+									<span itemprop="title">Trang chủ</span>
+								</a>
+							</li>
+							<li>
+								<a href="dulichmienbac.php">
+									<span>Du Lịch miền Bắc</span>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-
+		<section>
+			<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+			<div class="box">
+				<div>
+					<span>
+						<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+					</span>
+					<span>
+						<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+					</span>
+					<span>
+						<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+					</span>
+				</div>
+			</div>
+		</section>
 		<div class="wrapCont">
 			<div class="wrapper">
 				<div class="mda-archive" itemscope="" itemtype="http://schema.org/Product">
 					<h1 itemprop="name" class="mda-archive-title">
-						<a itemprop="url" title="Du lịch Miền Bắc" href="https://dulichviet.com.vn/du-lich-mien-bac">Hùng vĩ Miền Bắc</a>
+						<a itemprop="url" style="text-decoration: none !important;" title="Du lịch Miền Bắc" href="https://dulichviet.com.vn/du-lich-mien-bac">Hùng vĩ Miền Bắc</a>
 					</h1>
 					<div style="display: none">
 						<meta itemprop="mpn" content="143">
