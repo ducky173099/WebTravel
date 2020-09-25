@@ -9,75 +9,89 @@
   	<link rel="stylesheet" href="./css/header.css">
 </head>
 <body>
-<div id="topheader">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-		<div class="container">
-			<a class="navbar-brand" href="#">Logo</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-		
-			<div class="collapse navbar-collapse menu" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto w-100 justify-content-end menuBar">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle menu-item" href="dulichmienbac.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Du lịch 
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item tittleHeader" href="dulichmienbac.php">Hùng vĩ miền Bắc</a>
-							<a class="dropdown-item tittleHeader" href="#">Nắng gió miền Trung</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item tittleHeader" href="#">Sông nước miền Nam</a>
-						</div>
-					</li>
-					<li class="nav-item"><a href="hotel.php" class="menu-item nav-link">Khách sạn</a></li>
-					<li class="nav-item"><a href="thuexe.php" class="menu-item nav-link">Thuê xe</a></li>
-					<li class="nav-item"><a href="lienhe.php" class="menu-item nav-link">Liên hệ</a></li>
-					<li class="nav-item"><a href="#" class="nav-link" id="search"><i class="fa fa-search"></i></a></li>
-					<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-shopping-cart"></i></a></li>
-					<li class="ghl_menu nav-item" id="_open">
-						<button type="button" id="ghl_menu btn2" class="btnMenuBar">
-							<span class="icon" id="icon">
-								<span id="icontren"></span>
-								<span id="iconduoi"></span>
-							</span>
-							<!-- <i>
-								<span>MENU</span>
-							</i> -->
-						</button>
-					</li> 
-				</ul>
-				<div class="search-form">
-					<form>
-						<input type="text" name="" placeholder="Search">
-					</form>
+	<div id="topheader">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+			<!-- <div class="container"> -->
+				<a class="navbar-brand" href="#">KinhDO - Travel</a>
+			
+				<div class=" menu" >
+					<ul class="navbar-nav mr-auto w-100 justify-content-end menuBar">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle menu-item" href="dulichmienbac.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fa fa-user"></i> 
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item tittleHeader" href="login.php">Đăng nhập</a>
+								<a class="dropdown-item tittleHeader" href="dangky.php">Đăng ký</a>
+							</div>
+						</li>
+						<li class="nav-item"><a href="#" class="nav-link" id="search"><i class="fa fa-search"></i></a></li>
+						<li class="ghl_menu nav-item" id="_open">
+							<button type="button" id="ghl_menu btn2" class="btnMenuBar">
+								<span class="icon" id="icon">
+									<span id="icontren"></span>
+									<span id="iconduoi"></span>
+								</span>
+							</button>
+						</li> 
+					</ul>
+					<div class="search-form">
+						<form>
+							<input type="text" name="" placeholder="Search">
+						</form>
+					</div>
+					<a href="#" class="close"><i class="fa fa-times"></i></a>
 				</div>
-				<a href="#" class="close"><i class="fa fa-times"></i></a>
-			</div>
-		</div>
-	</nav>
+			<!-- </div> -->
+		</nav>
 	</div>
 	<nav id="global_navigation" class="global_navigation" role="navigation" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
 		<div class="global_inner">
 			<ul class="gn_links-01">
-				<li class=""> 
-					<a href="#"> 
-						<span class="title">Tin tức</span> 
+				<li class="child"> 
+					<a href="dulichmienbac.php" class="noUnderline"> 
+						<span class="titleHeader">Du lịch</span> 
+					</a> 
+					<button class="gnl_button" id="btnmore" type="button">
+						<span class="iconbtnmore"></span>
+						<span>yasuo</span>
+						<span class="iconbtnmore" id="iconbtnmoredeg1"></span>
+					</button> 
+					<div class="gnl_inner"> 
+						<div class="global_inner" id="navmore"> 
+							<ul> 
+								<li class=""> 
+									<a href="dulichmienbac.php" class="noafter"> 
+										<span>Hùng vĩ miền Bắc</span> 
+									</a> 
+								</li> 
+								<li class=""> 
+									<a href="dulichmienbac.php" class="noafter"> 
+										<span>Nắng gió miền Trung</span> 
+									</a> 
+								</li> 
+								<li class=""> 
+									<a href="dulichmienbac.php" class="noafter"> 
+										<span>Sông nước miền Nam</span> 
+									</a> 
+								</li> 
+							</ul> 
+						</div> 
+					</div> 
+				</li>
+				<li> 
+					<a href="hotel.php" class="noUnderline"> 
+						<span class="titleHeader">Khách sạn</span> 
 					</a> 
 				</li>
-				<li class=""> 
-					<a href="#"> 
-						<span class="title">Địa chỉ</span> 
+				<li> 
+					<a href="thuexe.php" class="noUnderline"> 
+						<span class="titleHeader">Vận chuyển</span> 
 					</a> 
 				</li>
-				<li class=""> 
-					<a href="#"> 
-						<span class="title">Chính sách bảo mật</span> 
-					</a> 
-				</li>
-				<li class="_parent"> 
-					<a href="#" class="_current"> 
-						<span class="title">Hỏi đáp</span> 
+				<li> 
+					<a href="lienhe.php"  class="noUnderline"> 
+						<span class="titleHeader">Liên hệ</span> 
 					</a> 
 				</li>
 			</ul>
@@ -93,6 +107,7 @@
 	crossorigin="anonymous"></script>
 
 	<script type="text/javascript">
+		// search
 		$(document).ready(function(){
 			$('.menu-toggle').click(function(){
 				$('.menu-toggle').toggleClass('active')
@@ -126,15 +141,15 @@
 		// 	})
 		// });
 
-		// const currentLocation = location.href;
-		// const menuItem = document.querySelectorAll('.navbar-nav.menuBar li a');
-		// const menuLength = menuItem.length;
+		const currentLocation = location.href;
+		const menuItem = document.querySelectorAll('.gn_links-01 li a');
+		const menuLength = menuItem.length;
 
-		// for(let i = 0; i < menuLength; i++){
-		// 	if(menuItem[i].href == currentLocation){
-		// 		menuItem[i].className = "active"
-		// 	}
-		// }
+		for(let i = 0; i < menuLength; i++){
+			if(menuItem[i].href == currentLocation){
+				menuItem[i].className = "current"
+			}
+		}
 	</script>
 			
 </body>

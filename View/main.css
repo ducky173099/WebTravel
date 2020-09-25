@@ -39,9 +39,9 @@ strong a{
 	text-align: justify;
 }
 .gnl_inner .global_inner ul li{
-	border-bottom: 1px dashed #ccc;	
+	/* border-bottom: 1px dashed #ccc;	
 	padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px; */
 }
 .gnl_inner .global_inner ul li:last-child{
 	border: none;
@@ -144,7 +144,7 @@ body{
 	position: relative;
 }
 .global_inner ul li .noafter{
-	font-size: 14px !important;
+	/* font-size: 14px !important; */
 }
 .dsheaderduoi li.active a{
 	color: #ff8c05 !important;
