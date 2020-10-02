@@ -12,17 +12,19 @@
 	<link rel="stylesheet" href="./css/1.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link rel="stylesheet" href="./css/tiltEffect.scss">
+	<link rel="stylesheet" href="./css/bannerHoverEffect.css">
 	<link rel="stylesheet" href="./css/videoCube.css">
+	<link rel="stylesheet" href="./css/parallaxScrollBanner.css">
 </head>
 <body class="body">
-<?php 
-	// include'header.php';
-	include'testt.php';
+	<?php 
+		// include'header.php';
+		include'testt.php';
 	?>
 	
 
 	<div id="vnt-content">
-		<div id="vnt-navation" class="breadcrumb">
+		<!-- <div id="vnt-navation" class="breadcrumb">
 			<div class="container">
 				<div class="wrapper">
 					<div class="navation">
@@ -41,23 +43,37 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<section>
-			<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
-			<div class="box">
-				<div>
-					<span>
-						<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
-					</span>
-					<span>
-						<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
-					</span>
-					<span>
-						<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
-					</span>
-				</div>
+		</div> -->
+
+		<!-- <section>
+			<video id="slider" autoplay muted loop>
+				<source src="images/ninhbinh.mp4" type="video/mp4">
+			</video>
+			<ul class="navigation">
+				<li onclick="videoUrl('images/ninhbinh.mp4')"><img src="images/ninhbinh2.jpg" alt=""></li>
+				<li onclick="videoUrl('images/sapa.mp4')"><img src="images/mbac2.jpg" alt=""></li>
+				<li onclick="videoUrl('images/hue.mp4')"><img src="images/hue2.jpg" alt=""></li>
+				<li onclick="videoUrl('images/halong.mp4')"><img src="images/mbac4.jpg" alt=""></li>
+			</ul>
+		</section> -->
+		<div class="banner">
+			<h2 id="text">Ky Handsome</h2>
+			<div class="clouds">
+				<img src="images/cloud1.png" style="--i:1;">
+				<img src="images/cloud2.png" style="--i:2;">
+				<img src="images/cloud3.png" style="--i:3;">
+				<img src="images/cloud4.png" style="--i:4;">
+				<img src="images/cloud5.png" style="--i:5;">
+				<img src="images/cloud1.png" style="--i:10;">
+				<img src="images/cloud2.png" style="--i:9;">
+				<img src="images/cloud3.png" style="--i:8;">
+				<img src="images/cloud4.png" style="--i:7;">
+				<img src="images/cloud5.png" style="--i:6;">
 			</div>
-		</section>
+		</div>
+
+
+	
 		<div class="wrapCont">
 			<div class="wrapper">
 				<div class="mda-archive" itemscope="" itemtype="http://schema.org/Product">
@@ -151,13 +167,15 @@
 				</div>
 			</div>
 
+			
+
 			<div class="container nopadding divTiltEffect">
 				<div class="col-xs-12">
 					<div class="text-xs-center">
 						<h3 class="tdto mb-3 ht_tieude nopadTilt">Mùa thu vàng miền Bắc</h3>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row marginTopRow">
 					<div class="col-sm-4">
 						<div id="app-container" data-tilt >
 							<div id="app">
@@ -221,6 +239,53 @@
 				<!-- row hieu ung tilt efect -->
 			</div>
 
+			<div class="container conClip">
+				<div class="wrapperClip col-xs-12">
+					<div class="mainClip">
+						<div class="clip clip1">
+							<div class="content">
+								<h2>Post Title One</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+							</div>
+						</div>
+						<div class="clip clip2">
+							<div class="content">
+								<h2>Post Title Two</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+							</div>
+						</div>
+						<div class="clip clip3">
+							<div class="content">
+								<h2>Post Title Tree</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-xs-4">
+					<section>
+						<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+						<div class="box">
+							<div>
+								<span>
+									<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+								</span>
+								<span>
+									<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+								</span>
+								<span>
+									<video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+								</span>
+							</div>
+						</div>
+					</section>
+				</div> -->
+			</div>
+
+
 			<div class="noidung3 noidung4 ">
 				<div class="container marginBotND3">
 					
@@ -232,7 +297,7 @@
 							</div>
 						</div> <!-- hết col-12 -->
 					</div> <!-- hết row tieude -->
-					<div class="row">
+					<div class="row marginTopRow">
 						<div class="col-sm-4">
 							<div class="oneuser">
 								<div class="imguser text-xs-center">
@@ -813,6 +878,20 @@
 			});
 		})  
 	</script>
+		<script type="text/javascript">
+		function videoUrl(hmmmmmm){
+			document.getElementById("slider").src = hmmmmmm;
+		}
+	
+	</script>
+
+	<script type="text/javascript">
+        let text = document.getElementById('text');
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            text.style.marginBottom = value * 2 + 'px';
+        })
+    </script>
 </body>
 </html>
 <script

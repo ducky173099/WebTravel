@@ -37,7 +37,7 @@ a:hover{
 	margin-left: 40px;
 }
 section {
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 	padding: 60px 0;
 	transition: padding .3s ease;
 }

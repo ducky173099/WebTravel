@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="vendor/bootstrap.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="./css/addMore.css">
+    <link rel="stylesheet" href="./css/videoCube.css">
 </head>
 <body>
     <?php 
@@ -45,7 +46,26 @@
                     </h1> 
                 </div> 
             </div>  -->
+
             <article id="global_contents" class="global_contents _module_contents _bg_color-beige" role="main" itemscope="" itemprop="mainContentOfPage"> 
+                <section>
+                    <video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+                    <div class="box">
+                        <div>
+                            <span>
+                                <video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+                            </span>
+                            <span>
+                                <video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+                            </span>
+                            <span>
+                                <video src="images/vietnamtravel.mp4" autoplay="" muted="" loop=""></video>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+
                 <section> 
                     <div class="local_inner">  
                         <h2 class="module_title-01 "> 

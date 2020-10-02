@@ -6,6 +6,25 @@
 #vnt-content {
     padding-top: 60px;
 }
+.marginTopRow{
+	margin-top: 50px;
+}
+#carouselExampleIndicators .carousel-indicators{
+	z-index: 1 !important;
+}
+.carousel-control-prev, .carousel-control-next{
+	display: none !important;
+}
+#carouselExampleIndicators .carousel-indicators li{
+	width: 12px !important;
+	height: 12px !important;
+	border-radius: 6px !important;
+	background-color: #fff !important;
+	margin: 0 5px !important;
+}
+.carousel-item>img.d-block{
+	max-height: 420px !important;
+}
 a:hover{
 	text-decoration: none !important;
 }
@@ -1078,6 +1097,7 @@ a:active, a:hover {
 	width: 100%;
 	position: fixed !important;
 	z-index: 10 !important;
+	border-radius: 0 !important;
 }
 .breadcrumb .wrapper {
 	max-width: 1200px;
@@ -2456,6 +2476,9 @@ input::placeholder {
 .khoidulich360{
 	background-color: #fff;
 	padding-bottom: 50px;
+	padding-top: 35px;
+	z-index: 11;
+	position: relative;
 }
 .frame-title {
 	position: relative;
@@ -2473,7 +2496,8 @@ input::placeholder {
 	background: #fff;
 	position: absolute;
 	top: -23px;
-	padding-right: 20px;
+	left: -15px;
+	padding-right: 10px;
 }
 .col-lg-5{
 	padding-left: 0 !important;
@@ -2588,10 +2612,12 @@ img.pic-sub {
 .main_chitiettour{
 	padding-bottom: 100px;
 	background-color: #fff;
+	padding-top: 40px;
 }
 .tour-namechitiet{
-	margin-bottom: 10px;
+	/* margin-bottom: 10px; */
 	line-height: 22px;
+	margin-top: 10px;
 }
 .tour-namechitiet a{
 	color: #fc3400 !important;
@@ -2599,8 +2625,8 @@ img.pic-sub {
 	font-size: 17.5px;
 	text-shadow: 0.5px 0.5px #ffd200;
 }
-.carousel-indicators .active{
-	background-color: red;
+#carouselExampleIndicators .carousel-indicators .active{
+	background-color: red !important;
 }
 .frame-info {
 	background: #f1f1f1;
@@ -3265,7 +3291,8 @@ td, th {
 	bottom: 10px !important;
 }
 .noidung3 {
-    padding-bottom: 70px;
+	padding-bottom: 70px;
+	padding-top: 50px;
 }
 
 /*------------ thong tin khach hang -------------*/

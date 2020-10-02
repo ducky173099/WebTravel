@@ -17,18 +17,39 @@
 	<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
 	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
-	<!-- <script>
-		$(function() {
-			$("#datepicker-1").datepicker();
-		});
-	</script> -->
 
 </head>
 <body class="body">
-	<?php include'header.php'; ?>
+	<?php 
+		// include'header.php';
+		include'testt.php';
+	?>
 	<div id="vnt-content">
 		<div id="vnt-navation" class="breadcrumb">
-			<div class="wrapper">
+			<div class="container">
+				<div class="wrapper">
+					<div class="navation">
+						<ul>
+							<li>
+								<a title="Trang chủ" href="index.php">
+									<span itemprop="title">Trang chủ</span>
+								</a>
+							</li>
+							<li>
+								<a title="Trang chủ" href="index.php">
+									<span itemprop="title">Du lịch</span>
+								</a>
+							</li>
+							<li>
+								<a href="dulichmienbac.php">
+									<span>Du Lịch miền Bắc</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="wrapper">
 				<div class="navation">
 					<ul>
 						<li>
@@ -48,7 +69,7 @@
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div> -->
 		</div> <!-- hết breadcrumb -->
 		<div class="main_chitiettour">
 			<div class="container n3-tour-detail">
@@ -57,10 +78,10 @@
 						<h1 class="tour-namechitiet" itemprop="name">
 							<a>Cố Đô Huế (Tour Tiết Kiệm)</a>
 						</h1>
-						<div class="tour-code">
+						<!-- <div class="tour-code">
 							<i class="fas fa-barcode"></i>&nbsp;&nbsp;
 							NDSGN523-100-261019XE-V
-						</div>
+						</div> -->
 					</div>
 					<div class="slideshow-pt col-lg-8 col-md-12 col-sm-12 col-xs-12 pos-relative">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -186,7 +207,7 @@
 							<div class="flex_item col-xs-12 no-padding v-margin-bottom-15">
 								<span id="isAdult" class="number-detail number-adult">1</span>
 								<span class="text-detail">
-									<span class="width-70">Người lớn</span>
+									<span class="width-70">Người</span>
 								</span>
 								<span id="RateAdultPrice" class="RateAdultAvg price-color">x 1.390.000</span>
 								<div class="btn-group groupPlusAndSub">
@@ -198,12 +219,11 @@
 									</button>
 								</div>
 							</div>
-							<div class="flex_item col-xs-12 no-padding v-margin-bottom-15">
+							<!-- <div class="flex_item col-xs-12 no-padding v-margin-bottom-15">
 								<span id="isChild" class="number-detail number-adult">0</span>
 								<span class="text-detail">
 									<span class="width-70">Trẻ em</span>
 								</span>
-								<!-- <span class="RateAdultAvg price-color"> x 1.390.000</span> -->
 								<div class="btn-group groupPlusAndSub">
 									<button type="button" onClick="onDeCreaseChild()" class="btn number-button minus-adult btn-general">
 										<i class="fa fa-minus"></i>
@@ -212,7 +232,7 @@
 										<i class="fa fa-plus"></i>
 									</button>
 								</div>
-							</div>
+							</div> -->
 							<div id="totalResults" class="col-xs-12 flex_item no-padding v-margin-bottom-15 priceDiv" style="display: none;">
 								<span class="price-line price-line-detail"></span>
 								<span class="labelPrice">Tổng cộng</span>
@@ -258,7 +278,7 @@
 					</div>
 					
 					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 paddingtopinfo">
-						<div class="menu-left mg-bot30">
+						<!-- <div class="menu-left mg-bot30">
 							<div class="panel panel-default panel-side-menu">
 								<div class="panel-body panel-body-nav">
 									<div class="side-menu">
@@ -309,7 +329,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="services">
 							<div class="title-lg">Dịch vụ đi kèm</div>
 							<div class="frame-service">
