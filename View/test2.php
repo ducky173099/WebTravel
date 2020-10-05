@@ -6,7 +6,9 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="./css/parallaxScrollBanner.css"> -->
     <!-- <link rel="stylesheet" href="./css/according.css"> -->
-    <link rel="stylesheet" href="./css/wavyEffect.css">
+    <!-- <link rel="stylesheet" href="./css/wavyEffect.css"> -->
+    <link rel="stylesheet" href="./css/flipCardHover.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
     <!-- <section class="zoom">
@@ -59,39 +61,100 @@
             </div>
         </div>
     </div> -->
-    <div class="mainWavy">
-        <div class="container wavy">
-            <div class="boxWavy">
-                <div class="contentWavy">
-                    <h2>Water wave div</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard</p>
+    <div class="mainFlip">
+        <div class="container">
+            <div class="cardFlip">
+                <div class="frontFlip">
+                    <img src="images/ht8.jpeg" alt="">
+                </div>
+                <div class="back">
+                    <div class="details">
+                        <!-- <h2>John Doe<br><span>Senior Designer</span></h2> -->
+                        <h2>John Doe</h2>
+                        <p class="cententDetail">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries
+                        </p>
+                        <div class="detailFlip">
+                            <div class="flexFlip">
+                                <h3 class="adressTo">Lộ trình:</h3>
+                                <p>2 Ngày</p>
+                            </div>
+                            <div class="flexFlip">
+                                <h3 class="adressTo">Giá:</h3>
+                                <p>3.600.000 $</p>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="#">Here</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="boxWavy">
-                <div class="contentWavy">
-                    <h2>Water wave div</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard</p>
+
+            <div class="cardFlip">
+                <div class="frontFlip">
+                    <img src="images/2.jpg" alt="">
+                </div>
+                <div class="back">
+                    <div class="details">
+                        <!-- <h2>John Doe<br><span>Senior Designer</span></h2> -->
+                        <h2>John Doe</h2>
+                        <p class="cententDetail">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries
+                        </p>
+                        <div class="detailFlip">
+                            <div class="flexFlip">
+                                <h3 class="adressTo">Lộ trình:</h3>
+                                <p>2 Ngày</p>
+                            </div>
+                            <div class="flexFlip">
+                                <h3 class="adressTo">Giá:</h3>
+                                <p>3.600.000 $</p>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="#">Here</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="boxWavy">
-                <div class="contentWavy">
-                    <h2>Water wave div</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard</p>
+
+            <div class="cardFlip">
+                <div class="frontFlip">
+                    <img src="images/3.jpg" alt="">
+                </div>
+                <div class="back">
+                    <div class="details">
+                        <!-- <h2>John Doe<br><span>Senior Designer</span></h2> -->
+                        <h2>John Doe</h2>
+                        <p class="cententDetail">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries
+                        </p>
+                        <div class="detailFlip">
+                            <div class="flexFlip">
+                                <h3 class="adressTo">Lộ trình:</h3>
+                                <p>2 Ngày</p>
+                            </div>
+                            <div class="flexFlip">
+                                <h3 class="adressTo">Giá:</h3>
+                                <p>3.600.000 $</p>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="#">Here</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <svg>
-            <filter id="wavyFilter">
-                <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="2">
-                    <animate attributeName="baseFrequency" dur="60s" values="0.02;0.05;0.02" repeatCount="indefinite"/>
-                </feTurbulence>
-                <feDisplacementMap in="SourceGraphic" scale="30"/>
-            </filter>
-        </svg>
     </div>
+
 
  
     <script type="text/javascript">

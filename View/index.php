@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="./css/glide.core.min.css">
 	<link rel="stylesheet" href="./css/slide.css">
 	<link rel="stylesheet" href="./css/wavyEffect.css">
+	<link rel="stylesheet" href="./css/flipCardHover.css">
 </head>
 <body class="body">
 	<?php 
@@ -272,8 +273,10 @@
 
 		<div class="mainWavy">
 			<div class="container wavy">
-				<div class="titleWavy">
-					<h2>Tour kich cau</h2>
+				<div class="col-xs-12 marginBot">
+					<div class="text-xs-center">
+						<h3 class="tdto mb-3 ht_tieude nopadTilt">Tour kích cầu</h3>
+					</div>
 				</div>
 				<div class="initWavy">
 					<div class="boxWavy">
@@ -309,6 +312,9 @@
 			</div>
 		</div>
 		<!-- het wavy -->
+
+
+
 
 		<div class="khoidulich360">
 			<div class="container">
@@ -592,6 +598,9 @@
 				</div>
 			</div>
 		</div> 
+
+
+		
 
 		<div class="whytravel">
 			<div class="framewhy">

@@ -885,6 +885,7 @@
 	
 	</script>
 
+	<!-- may bay -->
 	<script type="text/javascript">
         let text = document.getElementById('text');
         window.addEventListener('scroll', function(){

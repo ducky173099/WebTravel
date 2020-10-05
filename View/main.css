@@ -9,6 +9,18 @@
 .marginTopRow{
 	margin-top: 50px;
 }
+.userSubmit_3ASx a{
+	color: #fff;
+	font-size: 14px;
+}
+.DayPickerInput input{
+	height: 40px;
+	padding-left: 5px;
+}
+.checkMail label.form-check-label{
+	top: 0 !important;
+	padding-left: 8px !important;
+}
 #carouselExampleIndicators .carousel-indicators{
 	z-index: 1 !important;
 }
@@ -620,7 +632,7 @@ ul li.active .motslide .textnd{
 .khoi4{
 	background-color: #ffffff;
 	width: 100%;
-	padding-bottom: 100px;
+	padding-bottom: 45px;
 }
 .tdaddress {
 	text-align: center;
@@ -3377,7 +3389,8 @@ td, th {
 }
 .lzd-playground-right {
     position: relative;
-    margin-left: 201px;
+    /* margin-left: 201px; */
+    height: 100vh;
 }
 .lzd-playground-right .breadcrumbkhachhang	 {
     height: 60px;
@@ -4228,7 +4241,10 @@ td, th {
 .form-group label {
     font-weight: normal;
     position: relative;
-    top: 7px;
+    /* top: 7px; */
+}
+.pointerEvent{
+	pointer-events: none;
 }
 .visible-sm, .visible-md, .visible-lg {
     display: none!important;

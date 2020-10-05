@@ -112,7 +112,7 @@
 												</label>
 												<div class="col-sm-10 col-md-6 col-lg-6 inputkh">
 													<div class="phoneInput_Q_2V">
-														<input name="phone" class="form-control pointerEvent" type="text" placeholder="" value="ducky173099@gmail.com">
+														<input name="phone" class="form-control" type="text" placeholder="" value="ducky173099@gmail.com">
 													</div>
 												</div>
 											</div>
@@ -122,20 +122,20 @@
 												</label>
 												<div class="col-sm-10 col-md-6 col-lg-6">
 													<div class="phoneInput_Q_2V">
-														<input name="phone" class="form-control pointerEvent" type="text" placeholder="" value="0989000410">
+														<input name="phone" class="form-control" type="text" placeholder="" value="0989000410">
 													</div>
 												</div>
 											</div>
 											<div class="form-group row">
 												<label for="firstName" class="col-sm-2 col-form-label">Họ và tên:</label>
 												<div class="col-sm-10 col-md-6 col-lg-6">
-													<input name="firstName" class="form-control pointerEvent" type="text" maxlength="30" placeholder="Họ và tên đệm" tabindex="3" value="Kỷ">
+													<input name="firstName" class="form-control" type="text" maxlength="30" placeholder="Họ và tên đệm" tabindex="3" value="Kỷ">
 												</div>
 											</div>
 											<div class="form-group row">
 												<label for="lastName" class="col-sm-2 col-form-label">Tên:</label>
 												<div class="col-sm-10 col-md-6 col-lg-6">
-													<input name="lastName" class="form-control pointerEvent" type="text" placeholder="Tên" maxlength="10" tabindex="4" value="Đức">
+													<input name="lastName" class="form-control" type="text" placeholder="Tên" maxlength="10" tabindex="4" value="Đức">
 												</div>
 											</div>
 											<div class="form-group row">
@@ -143,13 +143,13 @@
 												<div class="col-sm-10 col-md-6 col-lg-6">
 													<div class="form-check form-check-inline">
 														<div class="checkMail">
-															<input type="radio" class="pointerEvent" name="gender" value="1" checked="">
+															<input type="radio" name="gender" value="1" checked="">
 															<label class="form-check-label" for="male">Nam</label>
 														</div>
 													</div>
 													<div class="form-check form-check-inline">
 														<div class="checkMail">
-															<input type="radio" class="pointerEvent" name="gender" value="0">
+															<input type="radio" name="gender" value="0">
 															<label class="form-check-label" for="female">Nữ</label>
 														</div>
 													</div>
@@ -159,7 +159,7 @@
 												<label for="email" class="col-sm-2 col-form-label birthdayLabel_2KaK">Ngày sinh:</label>
 												<div class="col-sm-10 col-md-6 col-lg-6">
 													<div class="DayPickerInput">
-														<input type="date" name="ngay_di" class="form-text get_date pointerEvent" value="1999-11-30">
+														<input type="date" name="ngay_di" class="form-text get_date" value="30/11/1999">
 														<!-- <input placeholder="DD/MM/YYYY" type="date" readonly="" value="30/11/1999"> -->
 													</div>
 												</div>
@@ -173,9 +173,7 @@
 											<div class="form-group row">
 												<label for="email" class="col-sm-2 col-form-label"></label>
 												<div class="col-sm-10">
-													<button class="userSubmit_3ASx">
-														<a href="updateUser.php">Sửa thông tin</a>
-													</button>
+													<button type="submit" class="userSubmit_3ASx">Cập nhật</button>
 												</div>
 											</div>
 										</form>
